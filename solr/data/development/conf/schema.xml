@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<schema name="SolrRailsApp" version="1.5">
+
+  <field name="type" stored="false" type="string" multiValued="true" indexed="true"/>
+  <field name="name" stored="true" type="string" multiValued="true" indexed="true"/>
+  <field name="iso" stored="true" type="string" multiValued="true" indexed="true"/>
+
+</schema>
